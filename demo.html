@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Demo/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Demo/lib/demo.css">
+</head>
+
+<body background="https://st.depositphotos.com/1035837/1363/i/450/depositphotos_13631435-stock-photo-kitten.jpg">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/Demo/demo.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Demo/galéria.html">Galéria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Demo/Rólunk.html">Rólunk</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="row" >
+        <div class="col" id="baloldal">
+            <ul>
+               <a href="/Demo/lib/térkép.bmp"> <li>Térkép</li></a>
+                <li>menü2</li>
+            </ul>
+        </div>
+        <div class="col-3">
+
+            <form class="form-control">
+                <div><label for="">Név</label></div>
+                <div><input type="text" name="nevBevitel form-control"></div>
+                <div><label for="">Email</label></div>
+                <div><input type="email" name="emailBevitel form-control" value="példa@email.com"></div>
+
+                <input type="checkbox" name="elfogadás"> <label for="elfogadás"> Szabályzat</label>
+
+            </form>
+            <form class="form-control ">
+                <div>Rendelés</div>
+                <div><label for="">Darabszám
+                    </label></Div>
+                <input type="number" name="rendelésMennyiség" id="" value="0">
+                <div><label >Feltét fajták:</label> <span class="text-muted"> 150FT</span></div>
+                <div><input type="radio" name="Feltét1" id="Feltét1"><label for="Feltét1"> Hagymás</label></div>
+                <div><input type="radio" name="Feltét1" id="Feltét2"> <label for="Feltét2">Piedone</label></div>
+            </form>
+<form class="form-control"><div ><label for="">Összesítés:</label></div>
+    <div>Fizetendő <span class="összeg">0 </span>Ft</div>
+<div><input onclick="számítás()" type="button" value="Elküld"></div>
+
+
+</form>
+        </div>
+        <div class="col"></div>
+    </div>
+
+
+
+
+
+
+
+</body>
+<script src="/Demo/lib/java.js"></script>
+
+</html>
