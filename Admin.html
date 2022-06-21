@@ -7,13 +7,43 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="lib/demo.css">
     <script src="https://kit.fontawesome.com/079011c7e7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="\css\bootstrap.min.css">
+    <link rel="stylesheet" href="admin.css">
+    
 
     <title>Admin felület</title>
 </head>
 <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-2"></div>
+            <div   class="d-grid gap-2"></div><button class="btn-block btn btn-primary" id="getDataBtn" >
+                Get users</button>
+            </div>
+            <div class="col-2"></div>
+        </div>
     
+        <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <table id="userTable" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Név</th>
+                        <th>Email</th>
+                        <th>akciók</th>
+                    </tr>
+                </thead>
+                <tbody>
+        
+                </tbody>
+            </table>
+        </div>
+        <div class="col-2"></div>
+    </div>
     
 </body>
 <script src="lib/java.js"></script>
-
+<script src="AdminJS\admin.js"></script>
 </html>
